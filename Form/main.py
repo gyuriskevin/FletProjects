@@ -12,7 +12,7 @@ def ContainerStyling(header):
         "border_radius": 10,
         "border": ft.border.only(top=ft.border.BorderSide(6, "#3F84E5")) if header == "header" else ft.border.only(left=ft.border.BorderSide(6, "#E2DBCB")),
         "bgcolor": "#E2DBCB",
-        "animate": ft.animation.Animation(700, "ease"),
+        "animate": ft.animation.Animation(850, "decelerate"),
         "on_hover": lambda e: onHover(e) if header == "header" else onHoverQ(e),
         "margin": 10,
         "padding" : 10
