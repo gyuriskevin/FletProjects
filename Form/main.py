@@ -19,12 +19,12 @@ def ContainerStyling(header):
     }
 
 def onHover(e):
-    e.control.height = 180 if e.data == "true" else 150
+    e.control.height = 160 if e.data == "true" else 150
     e.control.border = ft.border.only(top=ft.border.BorderSide(6, "#3F84E5"))
     e.control.update()
 
 def onHoverQ(e):
-    e.control.height = 200 if e.data == "true" else 150
+    e.control.height = 165 if e.data == "true" else 150
     e.control.border = ft.border.only(left=ft.border.BorderSide(6, "#3F84E5")) if e.data == "true" else ft.border.only(top=ft.border.BorderSide(6, "#E2DBCB"))
     e.control.update()
 
